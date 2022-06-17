@@ -509,7 +509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveVal: {x: 0, y: 0, z: 0}
-  moveSpeed: 0
+  moveSpeed: 1
 --- !u!1 &2101753784
 GameObject:
   m_ObjectHideFlags: 0
