@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{8AF3EFC0-4BDA-2BEE-E365-C54AF9333BB0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -54,7 +53,13 @@
     <UnityVersion>2022.1.5f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="E:\Programs\Visual Studio 2022\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Scripts\B1.cs" />
+    <Compile Include="Assets\Scripts\Actors\PlayerState.cs" />
+    <Compile Include="Assets\Scripts\Actors\Player.cs" />
+    <Compile Include="Assets\Scripts\Actors\PlayerLocator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
