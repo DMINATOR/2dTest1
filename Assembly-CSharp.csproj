@@ -57,12 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\B1.cs" />
-    <Compile Include="Assets\Scripts\Actors\Player.cs" />
-    <Compile Include="Assets\Scripts\Actors\PlayerState.cs" />
-    <Compile Include="Assets\Scripts\Actors\PlayerLocator.cs" />
     <Compile Include="Assets\Scripts\Interfaces\ICommand.cs" />
+    <Compile Include="Assets\Scripts\Actors\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Commands\ObjectMoveCommand.cs" />
-    <Compile Include="Assets\Scripts\Actors\PlayerInputListener.cs" />
+    <Compile Include="Assets\Scripts\Actors\Player\PlayerInputListener.cs" />
+    <Compile Include="Assets\Scripts\Actors\Player\PlayerState.cs" />
+    <Compile Include="Assets\Scripts\Actors\Player\PlayerLocator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
